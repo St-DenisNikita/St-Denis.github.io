@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8">
+ <title>HTML Academy: Глейси</title>
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="css/normalize-min.css">
+ <link rel="stylesheet" type="text/css" href="css/style-min.css">
+</head>
+<body>
+ <div class="feedback-page">
+  <form class="feedback-form" method="post" action="https://echo.htmlacademy.ru">
+   <div class="wrap-field">
+    <button class="close-button" type="button"></button>
+    <p class="feedback-form-text">Мы обязательно вам ответим!</p>
+    <p class="field feedback-name-field">
+     <input class="field-input feedback-input-field" type="text" name="feedback-user-name" id="feedback-user-name" required>
+     <label class="field-label feedback-label-field" for="feedback-user-name">Как вас зовут?</label>
+    </p>
+    <p class="field feedback-email-field">
+     <input class="field-input feedback-input-field" type="text" name="feedback-user-email" id="feedback-user-email" required>
+     <label class="field-label feedback-label-field" for="feedback-user-email">Ваша почта для ответа?</label>
+    </p>
+    <p class="field feedback-text-field">
+     <textarea class="field-textarea" name="feedback-form-text" id="feedback-form-text" required></textarea>
+     <label class="field-label feedback-label-field" for="feedback-form-text">Напишите что-нибудь...</label>
+    </p>
+    <button class="button feedback-submit-button" type="submit">Отправить</button>
+   </div>
+  </form>
+ </div>
+</body>
+</html>
